@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HOPn Models Platform (Frontend MVP)
 
-## Getting Started
+🌐 **Model-as-a-Service Web Application**  
+A sleek frontend prototype where fashion models can showcase their portfolio and clients can browse, view, and book them — complete with embedded content and QR code support.
 
-First, run the development server:
+## 🚀 Project Overview
 
+HOPn Models is a **frontend-only MVP** for a modeling platform. It provides a clean, responsive UI for model discovery, profile viewing, and simple submissions — with features like QR code linking, embedded videos/photos, and multilingual support.
+
+---
+
+## ✨ Features
+
+- 🏠 Clean and modern **Landing Page**
+- 👗 **Model Gallery** with filters (gender, city, model type, price)
+- 📄 **Individual Model Profiles** with embedded media and QR code
+- 📝 **Submit a Model** form 
+- 🌐 **Multilingual Support**: English + German/Arabic
+- 📱 **Shareable QR Code** per model profile
+
+---
+
+
+## 📦 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) / [React](https://reactjs.org/)
+- **Styling**: Tailwind CSS / CSS Modules
+- **QR Code Generator**: [`react-qr-code`](https://www.npmjs.com/package/react-qr-code) or `qrcode.react`
+- **Multilingual Support**: [`react-i18next`](https://react.i18next.com/)
+
+---
+
+# 🛠️ Installation
+
+## Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/RoshanNandasana/HOPn-Models.git
+cd hopn-models
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Install dependencies
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Run the development server
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🤖 QR Code Feature
+Each model profile includes a QR code generated using an open-source library.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Links to profile route: /model/<model-id>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Use  [`react-qr-code`](https://www.npmjs.com/package/react-qr-code) or similar libraries.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👤 Author
+Roshan Nandasana
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: @RoshanNandasana
