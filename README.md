@@ -34,7 +34,7 @@ HOPn Models is a **frontend-only MVP** for a modeling platform. It provides a cl
 
 ## Clone the repository
 ```bash
-git clone https://github.com/RoshanNandasana/HOPn-Models.git
+git clone https://github.com/RoshanNandasana/iHOPn-Models.git
 cd hopn-models
 ```
 
