@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-container {
+  @apply min-h-screen w-full flex items-center justify-center relative;
+  background-image: url('/assets/images/homebg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%; 
+  overflow-x: hidden; 
+}
+
+.home-container::before {
+  content: '';
+  @apply absolute inset-0 bg-black opacity-85 z-0;
+}
+
+.content {
+  @apply relative z-10 text-center space-y-6;
+}
+
+.btn {
+  @apply px-6 py-2 bg-[#1a252f] text-white rounded-lg hover:bg-[#553C9A] transition duration-200;
+}

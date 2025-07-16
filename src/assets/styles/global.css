@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-200;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  @apply max-w-5xl mx-auto px-5;
+}
+
+.btn {
+  @apply px-5 py-2 bg-gray-700 text-white rounded cursor-pointer;
+}
+
+.btn:hover {
+  @apply bg-gray-600;
+}
+
+.model-card {
+  @apply bg-gray-800 rounded-lg overflow-hidden m-2.5 w-48;
+}
+
+.model-card img {
+  @apply w-full h-48 object-cover;
+}

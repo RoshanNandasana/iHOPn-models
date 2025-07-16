@@ -1,0 +1,27 @@
+.model-card {
+  @apply bg-gray-800 rounded-lg overflow-hidden m-2.5 w-48 shadow-lg transition-all duration-300;
+}
+
+.model-card:hover {
+  @apply transform scale-105 shadow-xl;
+}
+
+.model-card img {
+  @apply w-full h-48 object-cover transition-opacity duration-300;
+}
+
+.model-card:hover img {
+  @apply opacity-90;
+}
+
+.model-card .p-4 {
+  padding: 1rem;
+}
+
+.model-card h3 {
+  @apply text-white font-semibold text-lg mb-1;
+}
+
+.model-card p {
+  @apply text-gray-400 text-sm;
+}
